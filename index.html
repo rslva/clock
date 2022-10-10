@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project - Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Analog Clock</h1>
+    <section class="container">
+        <div class="analog">
+            <div class="clock">
+                <div class="marks">
+                    <div class="mark" style="transform: rotate(0deg)"><div class="point"></div></div>
+                    <div class="mark" style="transform: rotate(30deg)"><div class="point"></div></div>
+                    <div class="mark" style="transform: rotate(60deg)"><div class="point"></div></div>
+                    <div class="mark" style="transform: rotate(90deg)"><div class="point"></div></div>
+                    <div class="mark" style="transform: rotate(120deg)"><div class="point"></div></div>
+                    <div class="mark" style="transform: rotate(150deg)"><div class="point"></div></div>
+                    <div class="mark" style="transform: rotate(180deg)"><div class="point"></div></div>
+                    <div class="mark" style="transform: rotate(210deg)"><div class="point"></div></div>
+                    <div class="mark" style="transform: rotate(240deg)"><div class="point"></div></div>
+                    <div class="mark" style="transform: rotate(270deg)"><div class="point"></div></div>
+                    <div class="mark" style="transform: rotate(300deg)"><div class="point"></div></div>
+                    <div class="mark" style="transform: rotate(330deg)"><div class="point"></div></div>
+                </div>
+                <div class="clockwise">
+                    <div class="c c_s"></div>
+                    <div class="c c_m"></div>
+                    <div class="c c_h"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+        </div>
+        <div class="digital">
+            <div class="time_zone">
+                <form action="">
+                    <select name="" id="" class="select-time">
+                        <option value="Europe/Rome" selected>Choose a time zone</option>
+                        <option value="Europe/Berlin">Berlin</option>
+                        <option value="Europe/Brussels">Brussels</option>
+                        <option value="America/Argentina/Buenos_Aires">Buenos Aires</option>
+                        <option value="Africa/Cairo">Cairo</option>
+                        <option value="America/Cuiaba">Cuiabá</option>
+                        <option value="Asia/Dubai">Dubai</option>
+                        <option value="Asia/Hong_Kong">Hong Kong</option>
+                        <option value="Pacific/Honolulu">Honolulu</option>
+                        <option value="Africa/Johannesburg">Johannesburg</option>
+                        <option value="Europe/London">London</option>
+                        <option value="America/Los_Angeles">Los Angeles</option>
+                        <option value="Europe/Madrid">Madrid</option>
+                        <option value="America/Mexico_City">Mexico City</option>
+                        <option value="Europe/Moscow">Moscow</option>
+                        <option value="America/New_York">New York</option>
+                        <option value="Europe/Paris">Paris</option>
+                        <option value="Europe/Rome">Rome</option>
+                        <option value="America/Sao_Paulo">São Paulo</option>
+                        <option value="Australia/Sydney">Sydney</option>
+                        <option value="Asia/Tokyo">Tokyo</option>
+                        <option value="America/Toronto">Toronto</option>
+                    </select>
+                </form>
+            </div>
+            <div class="info">
+                <div class="dig_clock">--:--:--</div>
+                <div class="date">Monday, 10 october 2022</div>
+            </div>
+        </div>
+    </section>
+    <footer>Reproduced by <a href="https://github.com/rslva">Ricardo Silva</a> as a lesson of the course JavaScript of <a href="https://b7web.com.br/">B7Web</a>.</footer>
+    <script src="script.js"></script>
+</body>
+</html>
